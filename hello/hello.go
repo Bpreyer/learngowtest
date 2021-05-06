@@ -4,10 +4,10 @@ import "fmt"
 
 // Hello is the function to print hello
 
-func Hello() string {
-	return "Hello, World"
+func Hello(name string) string {
+	return "Hello, " + name
 }
 
 func main() {
-	fmt.Println(Hello())
+	fmt.Println(Hello("world"))
 }
